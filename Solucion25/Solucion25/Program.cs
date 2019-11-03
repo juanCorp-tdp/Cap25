@@ -11,6 +11,11 @@ namespace Solucion25
         static void Main(string[] args)
         {
             Console.WriteLine("Hola Mundo Cibertec");
+            Console.WriteLine("Ingrese un número");
+            string valor;
+            valor = Console.ReadLine();
+            Console.WriteLine("Valor ingresado {0}",valor);
+
             Console.ReadLine();
         }
     }
